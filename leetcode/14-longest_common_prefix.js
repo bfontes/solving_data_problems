@@ -4,6 +4,9 @@
  */
 // Input: strs = ["flower","flow","flight"]
 // Output: "fl"
+
+//O(n*m) time
+//O(n) space
 var longestCommonPrefix = function(strs) {
     let sequencia = '';
     if (strs.length === 0) {
@@ -23,7 +26,11 @@ var longestCommonPrefix = function(strs) {
 };
 
 
+
 // segunda resolução
+
+//O(n*m) time
+//O(1) space
 // const longestCommonPrefix = (strs) => {
 //     if (strs.length === 0) return '';
   

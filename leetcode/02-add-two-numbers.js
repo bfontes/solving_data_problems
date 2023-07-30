@@ -4,6 +4,11 @@ The digits are stored in reverse order, and each of their nodes contains a singl
 Add the two numbers and return the sum as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 */
+
+// O(n) time 
+// O(n) space -> we need to generate a brand new data structure 
+
+
 var addTwoNumbers = function(l1, l2) {
   const iter = (no1, no2, resto = 0) => {
     //Verifica se não existem nós (no1, no2) e se não há resto para ser adicionado.

@@ -1,3 +1,6 @@
+//O(n) time
+//O(n) space
+
 var isPalindrome = function(x) {
     //convertendo pra string
     numero =  x.toString();
